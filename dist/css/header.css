@@ -1,0 +1,80 @@
+header{
+	height:1.92rem;
+	width: 100%;
+	background: #2f3543; 
+	vertical-align: middle;
+	position: fixed;
+	top:0;
+	z-index: 500;
+}
+.headerTOP{
+	height:1.92rem;
+}
+header .fl span{
+	background:url('../../images/headerL.png') no-repeat;
+	background-size: cover; 
+	width: 1rem;
+	height:1rem;
+	margin-left: 0.6rem;
+	margin-top: 0.46rem;
+}
+header .fl i{
+	background:url('../../images/headerFont.png') no-repeat;
+	background-size: cover; 
+	width: 1.22rem;
+	height:0.58rem;
+	margin-top: 0.66rem;
+	margin-left: 0.2rem;
+}
+header .fr a{
+	background:url('../../images/headerR.png') no-repeat;
+	background-size: cover; 
+	width: 0.8rem;
+	height:0.62rem;
+	margin-top: 0.66rem;
+	margin-right: 0.5rem;
+	display:block;
+}
+.navBar{
+	background: #2f3543;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 200;
+	padding-top: 4.36rem;
+	padding-bottom: 1.52rem;
+	display: none;
+}
+.navBar ul{
+	text-align: center;
+	width: 100%;
+}
+.navBar ul li {
+	line-height:2.2rem; 
+}
+.navBar ul li a {
+	color: #fbffff;
+	font-size: 0.58rem;
+}
+.navBar ul li a.active {
+	color: #3ba5ef;
+	font-size: 0.58rem;
+}
+.navBar div{
+	margin-top: 5.08rem;
+	margin-left: 0.84rem;
+}
+.navBar div a{
+	width: 3.96rem;
+	height: 1.56rem;
+	line-height: 1.56rem;
+	border-radius: 5px;
+	border: 1px solid #edf2ec;
+	color: #fcfcfa;
+	font-size: 0.52rem;
+	text-align: center;
+	
+}
+.navBar div a.center{
+	margin:0 0.68rem;
+}

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+<link href="" rel="stylesheet">
+<link href="../dist/css/footer.css" rel="stylesheet">
+<link href="../dist/css/header.css" rel="stylesheet">
+<link href="../dist/css/succed.css" rel="stylesheet">
+<style>
+*{margin:0; padding:0; list-style:none;}
+a{ text-decoration:none;}
+.clearFix:after{ content:''; display:block; clear:both; }
+.clearFix{ zoom:1; }
+.fl{ float: left; }
+.fr{ float: right; }
+html{font-size:25px; font-family: 'Microsoft Yahei;'}
+.box{
+	overflow: hidden;
+}
+/*  ↑↑↑↑↑通用
+**页面样式
+ */
+/*
+弹窗样式
+ */
+.chadetan{
+	width: 12rem;
+	height: 6rem;
+	background: #fff;
+}
+.chadetan h5{
+	height: 3.8rem;
+	text-align: center;
+	width: 100%;
+	line-height: 3.8rem;
+	border-bottom: 1px solid #d1d1d1;
+	font-size:0.68rem;
+	color: #333333;
+}
+.chadetan i{
+	font-style:normal;
+	height: 2.2rem;
+	text-align: center;
+	width: 100%;
+	line-height: 2.2rem;
+	font-size: 0.68rem;
+	display: block;
+	color: #333333;
+	background: #f0f0f0;
+}
+</style>
+<script type="text/javascript">
+window.onload=function(){
+	document.documentElement.style.fontSize = document.documentElement.clientWidth/375*25+'px';
+	window.onresize = function(){
+		document.documentElement.style.fontSize = document.documentElement.clientWidth/375*25+'px';
+	};
+};
+</script>
+</head>
+<body>
+    <div class='box'>
+		<header class='clearFix'>
+			<div class='fl clearFix'>
+				<span class='fl'></span>
+				<i class='fl'></i>
+			</div>
+			<div class='fr'>
+				<a id="NavBtn" href="javascript:;"></a>
+			</div>
+		</header>
+		<div class='headerTOP'></div>
+		<div class='navBar'>
+			<ul id="conTenBtn">
+				<li><a href="index.html">首页</a></li>
+				<li><a href="underStand.html">了解班级</a></li>
+				<li><a href="addInB.html">加入我们</a></li>
+				<li><a class='active' href="#">联系我们</a></li>
+			</ul>
+			<div class='clearFix'>
+				<a class='fl' href="javascript:;">教师登入</a>
+				<a class='fl center' href="javascript:;">媒体登入</a>
+				<a class='fl' href="javascript:;">培训登入</a>
+			</div>
+		</div>
+		<section>
+			<div class='header-Img'></div>
+			
+			<div class="cont" id="subInput">
+			<form id="form1" action="" method="">	
+				<h3>资源合作</h3>
+				<div class="n_name">
+					<p>您的姓名</p>
+					<input class='ThisName' type="text" />
+					<p class='err1'></p>
+				</div>
+				<div class="n_name">
+					<p>机构姓名</p>
+					<input type="text" />
+				</div>
+				<div class="n_name">
+					<p>Email</p>
+					<input class='thisInmail' type="text" />
+					<p class='err2'></p>
+				</div>
+				<div class="n_name">
+					<p>手机号码</p>
+					<input class='thisPhone' type="number"  />
+					<p class='err3'></p>
+				</div>
+				<div class="n_name">
+					<p>固定号码</p>
+					<input type="number" />
+				</div>
+				<div class="n_name">
+					<p>邮政编码</p>
+					<input type="text" />
+					<p class='err4'></p>
+				</div>
+				<div class="n_name address">
+					<p>联系地址</p>
+					<input type="text" />
+				</div>
+				</form>
+				<!-- <a class="sub" href="javascript:;">提交</a> -->
+				<input class="sub" type="submit" value="提交">
+
+				<div class="contact">
+					<h3>联系我们</h3>
+					<p>北京班集网络科技有限公司</p>
+					<div class="contact_cont">
+						<h4>地址</h4>
+						<p>北京市海淀区苏州街55号名商大厦701A</p>
+						<h4>电话</h4>
+						<p>+ 86 6988 7878</p>
+						<h4>传真</h4>
+						<p>+ 86 6988 7878</p>
+						<h4>Email</h4>
+						<p>banjihezuo@banji.com</p>
+					</div>
+					<h3 class="serve">服务与支持</h3>
+					<p class="p1">如果您在使用中遇到任何问题，请与我们的客服人员联系。</p>
+					<div class="contact_cont">
+						<h4>在线客服</h4>
+						<p>400-820-8888</p>
+						<h4>反馈中心</h4>
+						<p>如果您有任何的意见和建议，请及时告诉我们</p>
+					</div>
+					<div class="xx">
+						<a href="javascript:;">
+							<img src="../images/ico.png"  />
+						</a>
+						<a href="javascript:;">
+							<img src="../images/ico2.png"  />
+						</a>
+					</div>
+				</div>
+			</div>	
+			<!-- 弹窗-->
+			 <script type="text/template" id="bb">
+		        <div class="chadetan">
+		           	<h5>提交成功</h5>
+		           	<i class='close-btn'>确认</i>
+		        </div>
+   			 </script>		
+		</section>
+    	<footer>
+    		<div class='ftTop'>
+    			<h5>友情链接</h5>
+    			<ul class='clearFix'>
+    				<li class='fl'><a href="javascript:;">新浪网</a><i></i></li>
+    				<li class='fl'><a href="javascript:;">中关村在线</a><i></i></li>
+    				<li class='fl'><a href="javascript:;">搜狐</a><i></i></li>
+    				<li class='fl'><a href="javascript:;">新东方教育</a></li>
+    			</ul>
+    		</div>
+    		<div class='ftBom'>
+    			
+    		</div>
+    	</footer>
+    </div>
+    <script src='../dist/lanzuan_mobile.js'></script>
+    <script src="../dist/layer.mobile-v1.7/layer/layer.js"></script>
+     <script type="text/javascript">
+    	var oNavBtn=document.querySelector('#NavBtn');
+    	var oNavBar=document.querySelector('.navBar');
+    	function show(){
+    		if(oNavBar.style.display=='block'){
+    			oNavBar.style.display='none';
+    		}else{
+    			oNavBar.style.display='block';
+    		}
+    	}
+    	oNavBtn.addEventListener('touchstart',show,false);
+    	(function(){
+    		var aBtCon=document.querySelectorAll('#conTenBtn a');
+    		for(var i=0; i<aBtCon.length; i++){
+    			aBtCon[i].addEventListener('touchstart',function(){
+    				for(var i=0; i<aBtCon.length; i++){
+    					aBtCon[i].className='';
+    				}
+    				this.className='active';
+    			},false);
+    		}
+    	})();
+
+    	    //表单验证
+    var thisName = $('.ThisName')[0];
+    var pattern = /^[\u4e00-\u9fa5]{2,4}$|^[a-zA-Z]{1,20}$/;
+    var thisInmail = $('.thisInmail')[0];
+    var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;  //邮箱验证
+    var thisPhone = $('.thisPhone')[0];
+    var myreg = /^(((13[0-9]{1})|(15[0-9]{1})|(18[0-9]{1}))+\d{8})$/;  //验证130-139,150-159,180-189号码段的手机号码
+    var oSubBtn = $('.sub')[0];
+    var oSubInput = document.getElementById('subInput');
+    var aSubInp = oSubInput.getElementsByTagName('input');
+
+
+    function thisNameTest() {
+        if (!pattern.test(thisName.value)) {
+            $('.err1').html('请填写姓名');
+        } else {
+            $('.err1').html('');
+        }
+    }
+
+    thisName.onkeyup = thisNameTest;
+
+    function thisPhoneTest() {
+        if (!myreg.test(thisPhone.value)) {
+            $('.err3').html('请输入正确的手机号');
+        } else {
+            $('.err3').html('');
+        }
+    }
+
+    thisPhone.onkeyup = thisPhoneTest;
+
+    function thisInmailTest() {
+        if (!filter.test(thisInmail.value)) {
+            $('.err2').html('请填写E-mail');
+        } else {
+            $('.err2').html('');
+        }
+    }
+
+    thisInmail.onkeyup = thisInmailTest;
+
+    oSubBtn.onclick = function () {
+        //首先判断一下 整体的内容填没填
+        for(var i=0;i<aSubInp.length;i++){
+            if(!aSubInp[i].value){
+                thisNameTest();
+                thisInmailTest();
+                thisPhoneTest();
+                return;
+            }else{
+            	
+           			var index = layer.open({
+                	content: $("#bb").html(),
+                	success: function(ele){
+	                    //当弹窗显示的时候背景层显示。
+	                    $("#shade").show();
+	                    $('.shade').css({
+	                        opacity:0.1,
+	                        background:'#000'
+	                    });
+	                    //当点击关闭按钮的时候透明层0.5秒后消失。
+	                    $(ele).find(".close-btn").tap(function(){
+	                        layer.close(index);
+	                        $('#form1').submit();
+	                        //oSubBtn.setAttribute('type','submit');				//此处请与后台记性交互
+	                        setTimeout(function(){
+	                            $("#shade").hide();
+	                        },500)
+	                    });
+	                    //当点击背景层的时候弹窗消失 背景层0.5秒消失。
+	                    $(ele).find(".laymshade").tap(function(){
+	                        layer.close(index);
+	                        setTimeout(function(){
+	                            $("#shade").hide();
+	                        },500)
+	                    });
+	                    $(ele).find(".btn").tap(function(){
+	                        layer.close(index);
+	                    });
+	                }
+            		});
+            	
+            }
+        }
+
+        /*if(!thisName.value){
+            thisNameTest();
+            tankuang();
+        }else if(!thisInmail.value){
+            thisInmailTest();
+            tankuang();
+        }else if(!thisPhone.value){
+            thisPhoneTest();
+            tankuang();
+        }else if(!thisName.value || !thisPhone.value || !thisInmail.value ){
+            thisNameTest();
+            thisInmailTest();
+            thisPhoneTest();
+            tankuang();
+        }else{
+            oSubBtn.setAttribute('type','submit');    //这里是伪提交，请之后做ajax    $(form).submit
+        }*/
+    };
+    </script>
+</body>
+</html>

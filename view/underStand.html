@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+<link href="" rel="stylesheet">
+<link href="../dist/css/footer.css" rel="stylesheet">
+<link href="../dist/css/header.css" rel="stylesheet">
+<link href="../dist/css/underStand.css" rel="stylesheet">
+<style>
+*{margin:0; padding:0; list-style:none;}
+a{ text-decoration:none;}
+.clearFix:after{ content:''; display:block; clear:both; }
+.clearFix{ zoom:1; }
+.fl{ float: left; }
+.fr{ float: right; }
+html{font-size:25px;}
+.box{
+	overflow: hidden;
+}
+/*  ↑↑↑↑↑通用
+**页面样式
+ */
+</style>
+<script type="text/javascript">
+window.onload=function(){
+	document.documentElement.style.fontSize = document.documentElement.clientWidth/375*25+'px';
+	window.onresize = function(){
+		document.documentElement.style.fontSize = document.documentElement.clientWidth/375*25+'px';
+	};
+};
+</script>
+</head>
+<body>
+    <div class='box'>
+		<header class='clearFix'>
+			<div class='fl clearFix'>
+				<span class='fl'></span>
+				<i class='fl'></i>
+			</div>
+			<div class='fr'>
+				<a id="NavBtn" href="javascript:;"></a>
+			</div>
+		</header>
+		<div class='headerTOP'></div>
+		<div class='navBar'>
+			<ul>
+				<li><a href="index.html">首页</a></li>
+				<li><a class='active' href="#">了解班级</a></li>
+				<li><a href="addInB.html">加入我们</a></li>
+				<li><a href="succed.html">联系我们</a></li>
+			</ul>
+			<div class='clearFix'>
+				<a class='fl' href="javascript:;">教师登入</a>
+				<a class='fl center' href="javascript:;">媒体登入</a>
+				<a class='fl' href="javascript:;">培训登入</a>
+			</div>
+		</div>
+		<section>
+			<div class='header-Img'></div>
+			<div class='conTxfit clearFix'>
+				<h2 class='fl'>关于<br />班集</h2>
+				<div class='fl'>
+					<p>班集，致力于打通K12教育体制围墙内外——
+“将课堂建到家长手机端”。</p>
+					<p>班集，由北京班集网络科技有限公司打造的K12
+互联网教育垂直社区。</p>
+					<p>班集，以K12学校班级为基本单位建立家校沟通
+体系的基础上，按照兴趣爱好将学生进行二次分班，
+集合校内外学习场景、线上课程、社交等多种功能，
+打造真实的素质教育场景，建立学生学习生活的全
+场景社区。</p>
+					<p>班集，为K12教育链条中每一个参与者创造价值，
+以互联网方式为改变中国教育创造更多可能！</p>
+				</div>
+			</div>
+			<div class='textImg'></div>
+			<div class='conTxfit clearFix conTxpre'>
+				<h2 class='fl'>关于<br />班集</h2>
+				<div class='fl'>
+					<h5>于辉 CEO</h5>
+					<p>中国传媒大学 编导专业，清华创业训练营1期学员</p>
+					<ul>
+						<li>4年VR+4年移动互联在线教育创业项目经历； </li>
+						<li>2008-2013向量动漫科技有限公司CEO/ </li>
+						<li>2013-2015手心网CEO/2016年2月创立“班集”。</li>
+						<li>全国创业创新奖，受邀出席达沃斯丐界经济论坛。</li>
+					</ul>
+					<h5 class='text2'>张永亭 COO</h5>
+					<p>北京人文大学 工商管理专业 本科</p>
+					<ul>
+						<li>七年阿里巴巴、腾讯公司团度管理经验，阿里巴巴
+渠道首批开创者。</li>
+						<li>五年移动运营商项目营销经验，历任新教育项目落
+地具体负责人、新华网网房产频道华东总经理、
+手心网华东区总经理。</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+    	<footer>
+    		<div class='ftTop'>
+    			<h5>友情链接</h5>
+    			<ul class='clearFix'>
+    				<li class='fl'><a href="javascript:;">新浪网</a><i></i></li>
+    				<li class='fl'><a href="javascript:;">中关村在线</a><i></i></li>
+    				<li class='fl'><a href="javascript:;">搜狐</a><i></i></li>
+    				<li class='fl'><a href="javascript:;">新东方教育</a></li>
+    			</ul>
+    		</div>
+    		<div class='ftBom'>
+    			
+    		</div>
+    	</footer>
+    </div>
+    <script type="text/javascript">
+    	var oNavBtn=document.querySelector('#NavBtn');
+    	var oNavBar=document.querySelector('.navBar');
+    	function show(){
+    		if(oNavBar.style.display=='block'){
+    			oNavBar.style.display='none';
+    		}else{
+    			oNavBar.style.display='block';
+    		}
+    	}
+    	oNavBtn.addEventListener('touchstart',show,false);
+    </script>
+</body>
+</html>

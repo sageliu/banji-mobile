@@ -1,0 +1,322 @@
+section{
+	background: #39a5e9;
+}
+section .conHead{
+	background: url('../../images/contentImgHed.png') no-repeat;
+	background-size:cover;
+	height: 18.16rem;
+	width: 100%; 
+	position: relative;
+}
+section .conHead .ConRack{
+	background: url('../../images/contentRack.png') no-repeat;
+	background-size:cover;
+	height: 6.7rem;
+	width: 100%; 
+	position: absolute;
+	bottom: 0;
+}
+.portyText .pTtop .pTtop-L{
+	width: 7rem;
+	padding-left: 1rem;
+}
+.portyText .pTtop .pTtop-L h2{
+	font-size: 0.9rem;
+	color: #fff;
+	font-family: 'Microsoft Yahei';
+	font-weight: bold;
+	line-height: 1.44rem;
+	margin-top: 1.86rem;
+}
+.portyText .pTtop .pTtop-L p{
+	font-size: 0.56rem;
+	color: #fff;
+	font-family: 'Microsoft Yahei';
+	line-height: 1.14rem;
+}
+.portyText .pTtop .pTtop-L a{
+	display: block;
+	font-size: 0.56rem;
+	width: 6rem;
+	height: 1.54rem;
+	background:#2f3543;
+	text-align: center;
+	line-height: 1.54rem;
+	box-shadow: 0 0.06rem 0  #1b1f27;
+	color: #fff;
+	font-family: 'Microsoft Yahei';
+	line-height: 1.6rem;
+	border-radius: 6px;
+}
+.mar-13{
+	margin-top: 1.3rem;
+}
+.mar-30{
+	margin-top: 0.6rem;
+}
+.pTtop-R i{
+	background: url('../../images/headIpone-t.png') no-repeat;
+	background-size: cover;
+	width: 7rem;
+	height: 13.2rem;
+	display: block;
+	position: relative;
+	z-index: 2;
+	margin-top: 0.62rem;
+}
+.pTbottom{
+	background: url('../../images/conKid.png') no-repeat;
+	background-size: cover;
+	width: 13.2rem;
+	height: 3.26rem;
+	position: relative;
+	z-index: 5;
+	margin:0 auto;
+	margin-top: 0.3rem;
+}
+.rgbConScotch{
+	background: url('../../images/rgbConScotch.png') no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 9.4rem;
+	display: block;
+}
+.contFind{
+	width: 100%; 
+	height: 20.2rem;
+	background: #fff;
+	padding-top: 2rem;
+	position: relative;
+}
+.contFind .Find-top{
+	margin-left: 2.64rem;
+}
+.contFind .Find-top h2{
+	font-size: 0.92rem;
+	font-family: 'Microsoft Yahei';
+	font-weight: bold;
+	color: #88eeec;
+}
+.contFind .Find-top p{
+	font-size: 0.6rem;
+	font-family: 'Microsoft Yahei';
+	color: #666;
+	line-height: 1.12rem;
+	margin-top: 0.52rem;
+}
+.contFind img{
+	width: 8.62rem;
+	height: 15.18rem;
+	margin-top: 1.16rem;
+	margin-left: 3.26rem;
+}
+.contFind ul li.conFindBuld{
+	position: absolute;
+	right: 2rem;
+	top: 1rem;
+	background:url('../../images/conFindBuld.png') no-repeat;
+	background-size: cover;
+	width: 2.96rem;
+	height: 2.92rem;
+}
+.contFind ul li.conFindPin{
+	position: absolute;
+	left: 0.6rem;
+	top: 6.7rem;
+	background:url('../../images/conFindPin.png') no-repeat;
+	background-size: cover;
+	width: 2.28rem;
+	height: 2.16rem;
+}
+.contFind ul li.conFindComb{
+	position: absolute;
+	right: 0rem;
+	top: 4.9rem;
+	background:url('../../images/conFindComb.png') no-repeat;
+	background-size: cover;
+	width: 3.6rem;
+	height: 3.2rem;
+}
+.contCatch{
+	width: 100%; 
+	height: 20.2rem;
+	background: #ffd865;
+	padding-top: 2rem;
+	position: relative;
+}
+.contCatch .Find-top{
+	margin-left: 2.64rem;
+}
+.contCatch .Find-top h2{
+	font-size: 0.92rem;
+	font-family: 'Microsoft Yahei';
+	font-weight: bold;
+	color: #fff;
+}
+.contCatch .Find-top p{
+	font-size: 0.6rem;
+	font-family: 'Microsoft Yahei';
+	color: #fff;
+	line-height: 1.12rem;
+	margin-top: 0.52rem;
+}
+.contCatch img{
+	width: 10.56rem;
+	height: 14.8rem;
+	margin-left: 2.3rem;
+	margin-top: 1.4rem;
+	position: relative;
+	z-index: 2;
+}
+.contCatch ul li.conFindBuld{
+	position: absolute;
+	left: 0.4rem;
+	top: 6rem;
+	background:url('../../images/contCatchGlobe.png') no-repeat;
+	background-size: cover;
+	width: 3.88rem;
+	height: 4.14rem;
+}
+.contCatch ul li.conFindPin{
+	position: absolute;
+	right: 3.16rem;
+	top: 1.28rem;
+	background:url('../../images/contCatchXin.png') no-repeat;
+	background-size: cover;
+	width: 2.44rem;
+	height: 2.14rem;
+}
+.contCatch ul li.conFindComb{
+	position: absolute;
+	right: 1.12rem;
+	top: 4.18rem;
+	background:url('../../images/contCatchBag.png') no-repeat;
+	background-size: cover;
+	width: 3.06rem;
+	height: 3.64rem;
+}
+.preClas{
+	width: 100%; 
+	height: 20.2rem;
+	background: #FFF;
+	padding-top: 2rem;
+	position: relative;
+}
+.preClas .Find-top{
+	margin-left: 2.64rem;
+}
+.preClas .Find-top h2{
+	font-size: 0.92rem;
+	font-family: 'Microsoft Yahei';
+	font-weight: bold;
+	color: #9cd2f4;
+}
+.preClas .Find-top p{
+	font-size: 0.6rem;
+	font-family: 'Microsoft Yahei';
+	color: #666;
+	line-height: 1.12rem;
+	margin-top: 0.52rem;
+}
+.preClas img{
+	width: 9.6rem;
+	height: 12.52rem;
+	margin-left: 2.64rem;
+	position: relative;
+	z-index: 2;
+	margin-top: 3.7rem;
+}
+.preClasAdd{
+	position: absolute;
+	top: 6.58rem;
+	left: 2.66rem;
+	background:url('../../images/preClasAdd.png') no-repeat;
+	background-size: cover;
+	width: 1.86rem;
+	height: 2.02rem;
+}
+.preClasCut{
+	position: absolute;
+	top: 3.2rem;
+	left: 10.36rem;
+	background:url('../../images/preClasCut.png') no-repeat;
+	background-size: cover;
+	width: 1.86rem;
+	height: 1.74rem;
+}
+.preClasCut1{
+	position: absolute;
+	top: 7.36rem;
+	left: 6.52rem;
+	background:url('../../images/preClasCut1.png') no-repeat;
+	background-size: cover;
+	width: 1.86rem;
+	height:0.64rem;
+}
+.preClasMoi{
+	position: absolute;
+	top: 6.6rem;
+	left: 10.22rem;
+	background:url('../../images/preClasMoi.png') no-repeat;
+	background-size: cover;
+	width: 2.14rem;
+	height:2.02rem;
+}
+.nextClas{
+	width: 100%; 
+	height: 20.2rem;
+	background: #58dbd9;
+	padding-top: 2rem;
+	position: relative;
+}
+.nextClas .Find-top{
+	margin-left: 2.64rem;
+}
+.nextClas .Find-top h2{
+	font-size: 0.92rem;
+	font-family: 'Microsoft Yahei';
+	font-weight: bold;
+	color: #fff;
+}
+.nextClas .Find-top p{
+	font-size: 0.6rem;
+	font-family: 'Microsoft Yahei';
+	color: #fff;
+	line-height: 1.12rem;
+	margin-top: 0.52rem;
+}
+.nextClas img{
+	width: 10.68rem;
+	height: 14.9rem;
+	margin-left: 2.64rem;
+	position: relative;
+	z-index: 2;
+	margin-top: 1.32rem;
+}
+.nextMak1{
+	position: absolute;
+	top: 4.6rem;
+	left: 0.8rem;
+	background:url('../../images/nextMark1.png') no-repeat;
+	background-size: cover;
+	width: 2.26rem;
+	height:2.68rem;
+}
+.nextMak2{
+	position: absolute;
+	top: 1.28rem;
+	left: 10.1rem;
+	background:url('../../images/nextMark2.png') no-repeat;
+	background-size: cover;
+	width: 2.8rem;
+	height:2.24rem;
+}
+.nextMak3{
+	position: absolute;
+	top: 4.56rem;
+	left: 11.2rem;
+	background:url('../../images/nextMark3.png') no-repeat;
+	background-size: cover;
+	width: 2.38rem;
+	height:2.3rem;
+}

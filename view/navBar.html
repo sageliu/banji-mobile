@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+<link href="" rel="stylesheet">
+<style>
+*{margin:0; padding:0; list-style:none;}
+a{ text-decoration:none;}
+.clearFix:after{ content:''; display:block; clear:both; }
+.clearFix{ zoom:1; }
+.fl{ float: left; }
+.fr{ float: right; }
+html{font-size:25px;}
+.box{
+	overflow: hidden;
+}
+/*  ↑↑↑↑↑通用
+**页面样式
+ */
+header{
+	height:1.92rem;
+	width: 100%;
+	background: #2f3543; 
+	vertical-align: middle;
+	position: fixed;
+	top:0;
+}
+.headerTOP{
+	height:1.92rem;
+}
+header .fl span{
+	background:url('../images/headerL.png') no-repeat;
+	background-size: cover; 
+	width: 1rem;
+	height:1rem;
+	margin-left: 0.6rem;
+	margin-top: 0.46rem;
+}
+header .fl i{
+	background:url('../images/headerFont.png') no-repeat;
+	background-size: cover; 
+	width: 1.22rem;
+	height:0.58rem;
+	margin-top: 0.66rem;
+	margin-left: 0.2rem;
+}
+header .fr a{
+	background:url('../images/headerR.png') no-repeat;
+	background-size: cover; 
+	width: 0.8rem;
+	height:0.62rem;
+	margin-top: 0.66rem;
+	margin-right: 0.5rem;
+	display:block;
+}
+.navBar{
+	background: #2f3543;
+	width: 100%;
+	padding-top: 4.36rem;
+	padding-bottom: 1.52rem;
+}
+.navBar ul{
+	text-align: center;
+	width: 100%;
+}
+.navBar ul li {
+	line-height:2.2rem; 
+}
+.navBar ul li a {
+	color: #fbffff;
+	font-size: 0.58rem;
+}
+.navBar ul li a.active {
+	color: #3ba5ef;
+	font-size: 0.58rem;
+}
+.navBar div{
+	margin-top: 5.08rem;
+	margin-left: 0.84rem;
+}
+.navBar div a{
+	width: 3.96rem;
+	height: 1.56rem;
+	line-height: 1.56rem;
+	border-radius: 5px;
+	border: 1px solid #edf2ec;
+	color: #fcfcfa;
+	font-size: 0.52rem;
+	text-align: center;
+	
+}
+.navBar div a.center{
+	margin:0 0.68rem;
+}
+</style>
+<script type="text/javascript">
+window.onload=function(){
+	document.documentElement.style.fontSize = document.documentElement.clientWidth/375*25+'px';
+	window.onresize = function(){
+		document.documentElement.style.fontSize = document.documentElement.clientWidth/375*25+'px';
+	};
+};
+</script>
+</head>
+<body>
+    <div class='box'>
+		<header class='clearFix'>
+			<div class='fl clearFix'>
+				<span class='fl'></span>
+				<i class='fl'></i>
+			</div>
+			<div class='fr'>
+				<a href="javascript:;"></a>
+			</div>
+		</header>
+		<div class='headerTOP'></div>
+		<div class='navBar'>
+			<ul>
+				<li><a class='active' href="javascript:;">首页</a></li>
+				<li><a href="javascript:;">了解班级</a></li>
+				<li><a href="javascript:;">加入我们</a></li>
+				<li><a href="javascript:;">联系我们</a></li>
+			</ul>
+			<div class='clearFix'>
+				<a class='fl' href="javascript:;">教师登入</a>
+				<a class='fl center' href="javascript:;">媒体登入</a>
+				<a class='fl' href="javascript:;">培训登入</a>
+			</div>
+		</div>
+    </div>
+</body>
+</html>

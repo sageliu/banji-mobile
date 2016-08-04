@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+<link href="" rel="stylesheet">
+<link href="../dist/css/footer.css" rel="stylesheet">
+<link href="../dist/css/header.css" rel="stylesheet">
+<link href="../dist/css/index.css" rel="stylesheet">
+<style>
+*{margin:0; padding:0; list-style:none;}
+a{ text-decoration:none;}
+.clearFix:after{ content:''; display:block; clear:both; }
+.clearFix{ zoom:1; }
+.fl{ float: left; }
+.fr{ float: right; }
+html{font-size:25px;}
+.box{
+	overflow: hidden;
+}
+/*  ↑↑↑↑↑通用
+**页面样式
+ */
+</style>
+<script type="text/javascript">
+window.onload=function(){
+	document.documentElement.style.fontSize = document.documentElement.clientWidth/375*25+'px';
+	window.onresize = function(){
+		document.documentElement.style.fontSize = document.documentElement.clientWidth/375*25+'px';
+	};
+};
+</script>
+</head>
+<body>
+    <div class='box'>
+		<header class='clearFix'>
+			<div class='fl clearFix'>
+				<span class='fl'></span>
+				<i class='fl'></i>
+			</div>
+			<div class='fr'>
+				<a id="NavBtn" href="javascript:;"></a>
+			</div>
+		</header>
+		<div class='headerTOP'></div>
+		<div class='navBar'>
+			<ul>
+				<li><a class='active' href="#">首页</a></li>
+				<li><a href="underStand.html">了解班级</a></li>
+				<li><a href="addInB.html">加入我们</a></li>
+				<li><a href="succed.html">联系我们</a></li>
+			</ul>
+			<div class='clearFix'>
+				<a class='fl' href="javascript:;">教师登入</a>
+				<a class='fl center' href="javascript:;">媒体登入</a>
+				<a class='fl' href="javascript:;">培训登入</a>
+			</div>
+		</div>
+		<section>
+			<div class='conHead'>
+				<div class='portyText'>
+					<div class='pTtop clearFix'>
+						<div class='pTtop-L fl'>
+							<h2>把课堂搬到<br />家长手机上</h2>
+							<p>以实体学校班级为基础的多角色社群化学习平台</p>
+							<a class='mar-13' href="javascript:;">家长版</a>
+							<a class='mar-30' href="javascript:;">老师版</a>
+						</div>
+						<div class='pTtop-R fl'>
+							<i></i>
+						</div>
+					</div>
+					<div class='pTbottom'></div>
+				</div>
+				<div class='ConRack'></div>				
+			</div>
+			<div>
+				<a  class='rgbConScotch' href="javascript:;"></a>
+				<a  href="javascript:;"></a>
+			</div>
+			<div >
+				<a class='rgbConScotch' href="javascript:;"></a>
+			</div>
+			<div>
+				<a class='rgbConScotch' href="javascript:;"></a>
+			</div>
+			<!--发现 看见 课堂 课后 -->
+			<div class='contFind'>
+				<div class='Find-top'>
+					<h2>发现</h2>
+					<p>发现教育&nbsp;发现资源 <br />
+					   发现方法&nbsp;发现潜力</p>
+				</div>
+				<img src="../images/conFind.png" alt="">
+				<ul>
+					<li class='conFindBuld'></li>
+					<li class='conFindComb'></li>
+					<li class='conFindPin'></li>
+				</ul>
+			</div>
+			<div class='contCatch'>
+				<div class='Find-top'>
+					<h2>看见</h2>
+					<p>看见校园&nbsp;看见班级<br />
+					   看见孩子&nbsp;看见未来</p>
+				</div>
+				<img src="../images/conCatch.png" alt="">
+				<ul>
+					<li class='conFindBuld'></li>
+					<li class='conFindComb'></li>
+					<li class='conFindPin'></li>
+				</ul>
+			</div>
+			<div class='preClas'>
+				<div class='Find-top'>
+					<h2>课堂</h2>
+					<p>校长课堂&nbsp;教师课堂<br />
+					   家长课堂&nbsp;学生课堂</p>
+				</div>
+				<img src="../images/preClas.png" alt="">
+				<ul>
+					<li class='preClasAdd'></li>
+					<li class='preClasCut'></li>
+					<li class='preClasCut1'></li>
+					<li class='preClasMoi'></li>
+				</ul>
+			</div>
+			<div class='nextClas'>
+				<div class='Find-top'>
+					<h2>课堂</h2>
+					<p>校长课堂&nbsp;教师课堂<br />
+					   家长课堂&nbsp;学生课堂</p>
+				</div>
+				<img src="../images/nextClas.png" alt="">
+				<ul>
+					<li class='nextMak1'></li>
+					<li class='nextMak2'></li>
+					<li class='nextMak3'></li>
+				</ul>
+			</div>		
+		</section>
+    	<footer>
+    		<div class='ftTop'>
+    			<h5>友情链接</h5>
+    			<ul class='clearFix'>
+    				<li class='fl'><a href="javascript:;">新浪网</a><i></i></li>
+    				<li class='fl'><a href="javascript:;">中关村在线</a><i></i></li>
+    				<li class='fl'><a href="javascript:;">搜狐</a><i></i></li>
+    				<li class='fl'><a href="javascript:;">新东方教育</a></li>
+    			</ul>
+    		</div>
+    		<div class='ftBom'>
+    			
+    		</div>
+    	</footer>
+    </div>
+    <script type="text/javascript">
+    	var oNavBtn=document.querySelector('#NavBtn');
+    	var oNavBar=document.querySelector('.navBar');
+    	function show(){
+    		if(oNavBar.style.display=='block'){
+    			oNavBar.style.display='none';
+    		}else{
+    			oNavBar.style.display='block';
+    		}
+    	}
+    	oNavBtn.addEventListener('touchstart',show,false);
+    </script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+.header-Img{
+	background: url('../../images/stand.png') no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 4.8rem;
+}
+section .NavTiver{
+	width: 15rem;
+	height: 1.88rem;
+	overflow:hidden;
+	position: relative;
+}
+section .NavTiver div{
+	position: absolute;
+	left: 0;
+	height: 1.88rem;
+}
+section div.thisAbsolute{
+	position: relative;
+	height: 1.88rem;
+	background: #f0f0f0;
+	padding: 0;
+}
+section .NavTiver div a{
+	font-family: 'Microsoft Yahei';
+	color: #9b9b9b;
+	line-height: 1.88rem;
+	font-size: 0.66rem;
+	float: left;
+	margin: 0 0.6rem;
+	width: 2rem;
+	text-align: center;
+}
+section .NavTiver div a.active{
+	color: #323232;
+}
+section .Context1{
+	font-size: 0.48rem;
+	/*height: 13.56rem;*/
+	background: #fff;
+	border-bottom: 1px solid #999;
+	padding:1.2rem 0 1.2rem 0.8rem;
+	color: #666666;
+}
+section .Context1 h5{
+	font-size: 0.48rem;
+	color: #323232;
+	margin-bottom: 1.2rem;
+}
+section .Context1 p{
+	line-height: 0.98rem;
+}
+.deMand{
+	margin-top: 1rem;
+}
+.btnQQ{
+	width: 3.2rem;
+	height: 1.2rem;
+	background: #3189e2;
+	border-radius:5px;
+	display: block;
+	text-align: center;
+	line-height: 1.2rem;
+	color: #fff;
+	font-family: 'Microsoft Yahei';  
+	margin-top: 0.96rem;
+}
+.pagIng{
+	margin-top: 1.8rem;
+}
+.pagIng a{
+	font-size: 0.52rem;
+	color: #a0a0a0;
+}
+.pagIng a.active{
+	color: #45aaea;
+}

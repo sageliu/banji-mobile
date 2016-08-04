@@ -1,0 +1,99 @@
+.header-Img{
+	background: url('../../images/stand.png') no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 4.8rem;
+}
+.cont{
+	margin: 1.2rem 1.52rem 1.52rem 1.64rem;
+}
+.cont h3{
+	font-size: 0.64rem;
+	color: #333;
+}
+.n_name{
+	position: relative;
+	margin-top: 1.18rem;
+}
+.n_name p{
+	font-size: 0.44rem;
+	color: #666;
+}
+.n_name input{
+	width: 7.96rem;
+	height: 1.16rem;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid #e5e6e6;
+	margin-top: 0.6rem;
+}
+.n_name .err1, .n_name .err2, .n_name .err3, .n_name .err4{
+	position: absolute;
+	bottom: -0.8rem;
+	color: #f2243c;
+}
+.address input{
+	width: 11.7rem;
+}
+.sub{
+	border: none;
+	width: 3.2rem;
+	height: 1.2rem;
+	background: #3189E2;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 1.2rem;
+	font-size: 0.56rem;
+	display: block;
+	border-radius: 5px;
+	margin-top: 1.2rem;
+}
+.cont .contact{
+	margin-top: 2rem;
+}
+.contact p{
+	font-size: 0.44rem;
+	font-weight: bold;
+	color: #333;
+	margin-top: 1.4rem;
+}
+.contact_cont{
+	margin-top: 1.48rem;
+}
+.contact_cont h4{
+	font-size: 0.44rem;
+}
+.contact_cont p{
+	margin-top: 0.52rem;
+	font-size: 0.48rem;
+	color: #666666;
+	margin-bottom: 0.52rem;
+}
+.serve{
+	margin-top: 1.2rem;
+	font-size: 0.68rem;
+	color: #333;
+	
+}
+.contact .p1{
+	line-height: 0.96rem;
+	color: #666;
+}
+.xx img{
+	width: 4rem;
+	height: 1.2rem;
+}
+.xx{
+	overflow: hidden;
+	margin-top: 1.2rem;
+}
+.xx a{
+	float: left;
+	margin-right: 1rem;
+}
+input{
+	padding-left: 0.3rem;
+}
+.sub{
+	padding-left: 0;
+}
