@@ -1,3 +1,4 @@
+*{-webkit-tap-highlight-color:rgba(255,0,0,0);}
 .header-Img{
 	background: url('../../images/stand.png') no-repeat;
 	background-size: cover;
